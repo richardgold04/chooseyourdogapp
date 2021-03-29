@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Dog from "./components/Dog"
+import DogsFilter from "./components/DogsFilter"
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
 	
   return (
     <div className="App">
-      <Dog dogs={data}/>
+      <DogsFilter dogs={data}/>
     </div>
   );
 }

@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
+import DogCard from './DogCard'
 
-function Filter(props) {
-
-	const [clicked, setClicked] = useState(false);
+function DogsFilter(props) {
+  const [clicked, setClicked] = useState(false);
 	const [isYounger, setisYounger] = useState("")
 	const [isNeutered, setIsNeutered] = useState("all")
 	const [isVaccinated, setIsVaccinated] = useState("all")
 	const [genderType, setGenderType] = useState("all")
+
+  console.log(props);
 
 	let filteredDogs = props.dogs
 
@@ -29,8 +31,10 @@ function Filter(props) {
 			return dog.gender === genderType})
 	}
 
-	return (
-		<div className="filter-container">
+  return (
+    <div>
+			<h1>Which dog You prefer?</h1>
+      <div className="filter-container">
 				<h3>Filter by age</h3>
         <input onChange={(e) => setisYounger(e.target.value)} type="date"/>
 				<h3>Filter by neuter</h3>
@@ -52,7 +56,13 @@ function Filter(props) {
 					<option value="female">Female</option>
 				</select>
       </div>
-	)
+			<div className="dogs-container">
+      {filteredDogs.length > 0 ? filteredDogs.map((dog) => (
+        <DogCard dog={dog} clicked={clicked} setClicked={(value) => {setClicked(value)}}/>
+      )) : "No dogs"}
+			</div>
+    </div>
+  );
 }
 
-export default Filter
+export default DogsFilter;

@@ -1,9 +1,9 @@
 [
-	{"id": 1,"name": "Füge", "gender": "male", "breed": "Golden Retriever", "birth": 2015, "neutered": true, "vaccination": false, "colors": 2 },
-	{"id": 2, "name": "Eperke", "gender": "female", "breed": "Labrador", "birth": 2011, "neutered": false, "vaccination": true, "colors": 1 },
-	{"id": 3, "name": "Pumba", "gender": "male", "breed": "Chow-chow", "birth": 2018, "neutered": true, "vaccination": true, "colors": 1 },
-	{"id": 4, "name": "Hope", "gender": "female", "breed": "American Eskimo", "birth": 2019, "neutered": false, "vaccination": false, "colors": 2 },
-	{"id": 5, "name": "Boróka", "gender": "female", "breed": "Chollie", "birth": 2008, "neutered": true, "vaccination": true, "colors": 3 },
-	{"id": 6, "name": "Snoopy", "gender": "male", "breed": "Beagle", "birth": 2016, "neutered": true, "vaccination": false, "colors": 3 },
-	{"id": 7, "name": "Chester", "gender": "male", "breed": "German Shepherd", "birth": 2020, "neutered": false, "vaccination": true, "colors": 2 }
+	{"id": 1, "img": "https://i.pinimg.com/originals/09/2e/17/092e170b59473f78ade024449a1e5dbf.png", "name": "Füge", "gender": "male", "breed": "Golden Retriever", "birth": "2015.04.05.", "neutered": true, "vaccination": false, "colors": 2 },
+	{"id": 2, "img": "https://cricksydog.hu/wp-content/uploads/2019/07/barna-labrador-retriever.png", "name": "Eperke", "gender": "female", "breed": "Labrador", "birth": "2010.04.05.", "neutered": false, "vaccination": true, "colors": 1 },
+	{"id": 3, "img": "https://www.worldlydogs.com/uploads/5/2/2/3/52234445/8321439_orig.png", "name": "Pumba", "gender": "male", "breed": "Chow-chow", "birth": "2019.04.05.", "neutered": true, "vaccination": true, "colors": 1 },
+	{"id": 4, "img": "https://front.embarkvet.com/img/breeds/american_eskimo_dog_v2.png", "name": "Hope", "gender": "female", "breed": "American Eskimo", "birth": "2007.04.05.", "neutered": false, "vaccination": false, "colors": 2 },
+	{"id": 5, "img": "https://images-ra.adoptapet.com/seo/1/sc/41_sc.png", "name": "Boróka", "gender": "female", "breed": "Chollie", "birth": "2012.04.05.", "neutered": true, "vaccination": true, "colors": 3 },
+	{"id": 6, "img": "https://lh3.googleusercontent.com/proxy/mVAp1qcFspwEE0yj35EydvR8AatMCl97FaLxT58Bi8fehjMACpPvTEhmstE3bYqwrC39YXFaeijvFiq-bT7zTC7NJ6xTNaSA3b8PuneOINiTEoYheM2GxU5q-Tio", "name": "Snoopy", "gender": "male", "breed": "Beagle", "birth": "2013.04.05.", "neutered": true, "vaccination": false, "colors": 3 },
+	{"id": 7, "img": "https://i.pinimg.com/originals/aa/21/8e/aa218e0d81d51178ab68f65ef759eb11.png", "name": "Chester", "gender": "male", "breed": "German Shepherd", "birth": "2010.01.05.", "neutered": false, "vaccination": true, "colors": 2 }
 ]
