@@ -58,7 +58,7 @@ function DogsFilter(props) {
       </div>
 			<div className="dogs-container">
       {filteredDogs.length > 0 ? filteredDogs.map((dog) => (
-        <DogCard dog={dog} clicked={clicked} setClicked={(value) => {setClicked(value)}}/>
+        <DogCard key={dog.id} dog={dog} clicked={clicked} setClicked={(value) => {setClicked(value)}}/>
       )) : <div className="error-message">Oops...No dogs...You have to choose a cat maybe :)</div>}
 			</div>
     </div>

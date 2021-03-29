@@ -7,7 +7,7 @@ function DogCard(props) {
 	let today = new Date();
 
 	return (
-		<div className="dog-container" key={dog.id}>
+		<div className="dog-container">
           <div className="dog-name">{dog.name}</div>
 					<div>
 						<img src={dog.img} alt="dog_image"/>
