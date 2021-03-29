@@ -59,7 +59,7 @@ function DogsFilter(props) {
 			<div className="dogs-container">
       {filteredDogs.length > 0 ? filteredDogs.map((dog) => (
         <DogCard dog={dog} clicked={clicked} setClicked={(value) => {setClicked(value)}}/>
-      )) : "No dogs"}
+      )) : <div className="error-message">Oops...No dogs...You have to choose a cat maybe :)</div>}
 			</div>
     </div>
   );
