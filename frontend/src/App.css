@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body{
+	font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dogs-container{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dog-container{
+	margin-top: 40px;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: rgb(243, 240, 92);
+	text-align: center;
+	min-width: 250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dog-name{
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.dog-detail{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dog-detail-gender{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.detail-button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: rgb(167, 114, 0);
+	color: #fff;
+	padding: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+img{
+	margin-top: 30px;
+	max-height: 150px;
+}
+
+.filter-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+input, select{
+	margin-top: 10px;
+	padding: 10px;
+	border: 3px solid rgb(167, 114, 0);
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h1{
+	margin-bottom: 60px;
+	text-align: center;
 }
