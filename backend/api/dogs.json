@@ -1,0 +1,9 @@
+[
+	{"id": 1,"name": "Füge", "gender": "male", "breed": "Golden Retriever", "birth": 2015, "neutered": true, "vaccination": false, "colors": 2 },
+	{"id": 2, "name": "Eper", "gender": "female", "breed": "Labrador", "birth": 2011, "neutered": false, "vaccination": true, "colors": 1 },
+	{"id": 3, "name": "Pumba", "gender": "male", "breed": "Chow-chow", "birth": 2018, "neutered": true, "vaccination": true, "colors": 1 },
+	{"id": 4, "name": "Hope", "gender": "female", "breed": "American Eskimo", "birth": 2019, "neutered": false, "vaccination": false, "colors": 2 },
+	{"id": 5, "name": "Boróka", "gender": "female", "breed": "Chollie", "birth": 2008, "neutered": true, "vaccination": true, "colors": 3 },
+	{"id": 6, "name": "Snoopy", "gender": "male", "breed": "Beagle", "birth": 2016, "neutered": true, "vaccination": false, "colors": 3 },
+	{"id": 7, "name": "Chester", "gender": "male", "breed": "German Shepherd", "birth": 2020, "neutered": false, "vaccination": false, "colors": 2 }
+]
